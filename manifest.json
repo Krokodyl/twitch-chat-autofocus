@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+ 
+  "name": "TwitchChatAutofocus",
+  "version": "0.1.0",
+  "description": "desc",
+ 
+  "content_scripts": [
+	  {
+		"js": ["content.js"],
+		"matches": ["https://www.twitch.tv/*"]
+	  }
+  ]
+ 
+}
